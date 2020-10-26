@@ -1,1 +1,1 @@
-# input-iban-blacklist-demo
+A demo for the lion/input-iban blacklist functionality
