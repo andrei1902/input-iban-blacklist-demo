@@ -1,0 +1,23 @@
+{
+  "name": "input-iban-blacklist-demo",
+  "version": "1.0.0",
+  "description": "A demo for the lion/input-iban blacklist functionality",
+  "main": "input-iban.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrei1902/input-iban-blacklist-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrei1902/input-iban-blacklist-demo/issues"
+  },
+  "homepage": "https://github.com/andrei1902/input-iban-blacklist-demo#readme",
+  "dependencies": {
+    "@lion/fieldset": "^0.15.2",
+    "@lion/input-iban": "git+https://github.com/andrei1902/lion.git#input-iban-blacklist"
+  }
+}
