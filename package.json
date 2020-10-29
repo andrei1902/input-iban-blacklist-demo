@@ -4,7 +4,7 @@
   "description": "A demo for the lion/input-iban blacklist functionality",
   "main": "input-iban.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/andrei1902/input-iban-blacklist-demo#readme",
   "dependencies": {
     "@lion/fieldset": "^0.15.2",
-    "@lion/input-iban": "git+https://github.com/andrei1902/lion.git#input-iban-blacklist"
+    "@lion/input-iban": "git+https://github.com/andrei1902/lion.git#input-iban-blacklist",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0"
   }
 }
